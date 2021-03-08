@@ -7,8 +7,8 @@
     
 <!--    Content:<input id="content" type="text" name="article[content]"  value="<%= @article.content %>">-->
 <!--     </p>-->
-<!--  <input type="submit" value="submit" />-->
-<!--</form>-->
+
+
 
 <form action="/articles/<%= @article.id %>" method="post">
   <input type="hidden" name="_method" value="patch">
